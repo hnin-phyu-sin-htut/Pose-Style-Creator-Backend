@@ -2,6 +2,7 @@ package com.example.demo.dto;
 
 import java.time.LocalDateTime;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -9,6 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class ImageGenerationDto {
 
 	private Long id;
@@ -16,13 +18,5 @@ public class ImageGenerationDto {
 	private String prompt;
 	private String sourceImageUrl;
 	private LocalDateTime createdAt = LocalDateTime.now();
-	
-	public ImageGenerationDto(Long id, String backgroundImage, String prompt) {
-		super();
-		this.id = id;
-		this.backgroundImage = backgroundImage;
-		this.prompt = prompt;
-	}
-	
 	
 }

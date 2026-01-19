@@ -1,0 +1,6 @@
+
+#This has credit limits
+
+stability:
+  api-key: sk-YzANJYKXXENVo7EjEHq6PlxZ3LbtdRaQlNKzjckrhqTpJlZP
+  api-url: https://api.stability.ai/v2beta/stable-image/generate/core
